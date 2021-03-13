@@ -13,7 +13,7 @@ class Anagram
     def match(word)
         word.each do |i|
             if %w(i) == @word
-                temp << %w(i)
+                temp << @word
    #         if %w(word) == %w(@word)
    #            %w(word)
             else
